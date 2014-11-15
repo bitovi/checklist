@@ -3,7 +3,7 @@
 A JavaScript Project Checklist.
 
 - View the form [here](https://docs.google.com/a/neyeon.com/forms/d/1HUkRdvq9BAp3Qmu0TdWt__6WgiWx3uz_ppYp0lW0QWA/viewform)
-- Get the Google Form document [here](https://docs.google.com/forms/d/1HUkRdvq9BAp3Qmu0TdWt__6WgiWx3uz_ppYp0lW0QWA/edit?usp=sharing)
+- Get the Google Form document [here](https://docs.google.com/forms/d/1HUkRdvq9BAp3Qmu0TdWt__6WgiWx3uz_ppYp0lW0QWA/edit?usp=sharing&newcopy=true)
 
 
 ## Questions:
