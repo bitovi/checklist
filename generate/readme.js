@@ -19,7 +19,7 @@ var converters = {
     }).join('');
     var markdown = headers +  ' ' + current.label + '\n\n';
     if(current.help) {
-      markdown += '> ' + current.help + '\n';
+      markdown += '> ' + current.help + '\n\n';
     }
     current.questions.forEach(function(question) {
       markdown += convert(question, depth + 1);

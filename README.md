@@ -34,6 +34,7 @@ __What is the project's roadmap?  What are the goals, plans and release schedule
 ##### People are capable of accomplishing the goals.
 
 > Do people have the skills needed to accomplish the goals and roadmap?  Is the roadmap possible? Is there the access across the organizational bureaucracy?
+
 __Do all employees go through a technical training?__
 > For example a week long JS training.
 
@@ -216,9 +217,11 @@ __Does a design changelog exist?__
 ### Development
 
 > The following questions concern development specific problems.
+
 #### Tools and Environment
 
 > The essential tools are in place and being used in the right way.
+
 __Source control is__
 
 
@@ -260,6 +263,7 @@ __A 1-3 step process for the following exist:__
 #### Code quality
 
 > Practices and patterns that ensure good code.
+
 __Is a module loader used?__
 > Examples: StealJS, RequireJS, Webpack, sprokets
 
@@ -314,6 +318,7 @@ __Is technical debt factored into estimates?__
 #### Team
 
 > Does the development team work well together.
+
 __Is there a QA team or resource?__
 
 
