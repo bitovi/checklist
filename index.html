@@ -2,52 +2,20 @@
 <html>
   <head>
     <title>JavaScript Project checklist</title>
+    <link href="http://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="resources/styles.css" rel="stylesheet">
   </head>
   <body>
-    <style type="text/css">
-      html, body {
-        min-height: 100%;
-        padding: 0;
-        margin: 0;
-      }
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript" src="//rawgit.com/daffl/jquery.dform/master/dist/jquery.dform-1.1.0.min.js"></script>
+    <script src="resources/converter.js"></script>
 
-      body {
-        font-family: Helvetica, Arial, Sans-Serif;
-        background-color: #215968;
-      }
-
-      iframe, div.links {
-        position: absolute;
-        width: 100%;
-      }
-
-      iframe {
-        height: 90%;
-        top: 10%;
-      }
-
-      div.links {
-        color: #FFF;
-        height: 10%;
-        text-align: center;
-        padding-top: 10px;
-        font-size: 1.2em;
-      }
-
-      a {
-        color: #FFF;
-        text-decoration: none;
-      }
-
-      a:hover {
-        text-decoration: underline;
-      }
-    </style>
-
-    <div class="links">
-      <a href="https://docs.google.com/a/neyeon.com/forms/d/1HUkRdvq9BAp3Qmu0TdWt__6WgiWx3uz_ppYp0lW0QWA/viewform">View the form</a> |
-      <a href="https://docs.google.com/forms/d/1HUkRdvq9BAp3Qmu0TdWt__6WgiWx3uz_ppYp0lW0QWA/edit?usp=sharing" target="_blank">Google document</a>
+    <div class="container">
+      <h1 id="heading">
+        <img src="resources/checklist.png" alt="Checklist image">
+      </h1>
+      <form id="checklist" role="form" class="col-md-8"></form>
     </div>
-    <iframe src="https://docs.google.com/forms/d/1HUkRdvq9BAp3Qmu0TdWt__6WgiWx3uz_ppYp0lW0QWA/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
   </body>
 </html>

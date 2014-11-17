@@ -1,0 +1,287 @@
+{
+  "heading": "JavaScript Project Checklist",
+  "questions": [{
+    "type": "text",
+    "label": "Project name"
+  }, {
+    "type": "text",
+    "label": "Company name"
+  }, {
+    "type": "single",
+    "label": "Was the project a success?",
+    "values": [ "Yes", "No" ]
+  }, {
+    "type": "section",
+    "label": "Management",
+    "questions": [{
+      "type": "section",
+      "label": "People know what they are trying to accomplish.",
+      "questions": [{
+        "type": "textarea",
+        "label": "What is the project's vision?",
+        "help": "This is typically a single sentence that describes what the project aspires to be.  Example: \"A JS framework that allows developers to build better apps, faster\". If this doesn't exist, write \"none\"."
+      }, {
+        "type": "textarea",
+        "label": "How will the project measure success?",
+        "help": "Example: Increase mobile conversion rates to 0.75-1.0%, currently ~0.3%. If this doesn't exist, write \"none\"."
+      }, {
+        "type": "textarea",
+        "label": "What is the strategy for accomplishing the project's goals?",
+        "help": "Example: Combine the desktop and mobile sites for an improved user experience, site parity, and centralized ownership. If this doesn't exist, write \"none\"."
+      }, {
+        "type": "textarea",
+        "label": "What is the project's roadmap?  What are the goals, plans and release schedule after the current release?",
+        "help": "Example: Phase 1: Complete A, B, C. Phase 2: Complete D, E, F.  If there are no plans, write \"none\"."
+      }, {
+        "type": "section",
+        "label": "People are capable of accomplishing the goals.",
+        "help": "Do people have the skills needed to accomplish the goals and roadmap?  Is the roadmap possible? Is there the access across the organizational bureaucracy?",
+        "questions": [{
+          "type": "single",
+          "label": "Do all employees go through a technical training?",
+          "help": "For example a week long JS training.",
+          "values": [ "Yes", "No" ]
+        }, {
+          "type": "single",
+          "label": "Is there at least a yearly additional training opportunities for all employees?",
+          "values": [ "Yes", "No" ]
+        }, {
+          "type": "single",
+          "label": "How long until something can be released?",
+          "values": [ "3 months", "6 months", "1 year", "1.5 years" ]
+        }, {
+          "type": "textarea",
+          "label": "What is the org chart?",
+          "help": "Each person's name and title. Indent subordinates under a manager. If this doesn't exist, write \"none\"."
+        }, {
+          "type": "textarea",
+          "label": "Who has the final say in content and copy decisions?",
+          "help": "A person's name. If multiple people, separate names with \";\"."
+        }, {
+          "type": "text",
+          "label": "Who has the final say in design decisions?",
+          "help": "A person's name. If multiple people, separate names with \";\"."
+        }, {
+          "type": "text",
+          "label": "Who has final say in technology and infrastructure decisions?",
+          "help": "The person's name. If multiple people, separate names with \";\"."
+        }, {
+          "type": "single",
+          "label": "Do product owners frequently (at least once a month) meet with:",
+          "values": [ "UX teams", "Dev teams" ]
+        }, {
+          "type": "single",
+          "label": "Have your companies values, experiences, and goals been expressed to management and the client team?",
+          "values": [ "Yes", "No" ]
+        }, {
+          "type": "single",
+          "label": "Has this checklist been reviewed with the management, design and development teams?",
+          "values": [ "Yes", "No" ]
+        }]
+      }]
+    }, {
+      "type": "section",
+      "label": "People like each other.",
+      "questions": [{
+        "type": "single",
+        "label": "Does the company have outings?",
+        "help": "Examples: dinners / activities outside work.",
+        "values": [ "Yes", "No" ]
+      }, {
+        "type": "number",
+        "label": "How often, in months, do employee reviews happen?"
+      }]
+    }]
+  }, {
+    "type": "section",
+    "label": "UX / UI",
+    "questions": [{
+      "type": "number",
+      "label": "How many designers on the project?"
+    }, {
+      "type": "section",
+      "label": "Informed",
+      "questions": [{
+        "type": "single",
+        "label": "Is user testing done?",
+        "values": [ "Yes", "No" ]
+      }, {
+        "type": "multi",
+        "label": "What user testing techniques are being used?",
+        "values": [ "Usability testing", "User interviews", "Surveys" ]
+      }, {
+        "type": "single",
+        "label": "Is analytic software being used?",
+        "values": [ "Yes", "No" ]
+      }, {
+        "type": "single",
+        "label": "Is AB testing being performed?",
+        "values": [ "Yes", "No" ]
+      }, {
+        "type": "single",
+        "label": "Are the results of user testing, analytics, and other data being discussed at least monthly?",
+        "values": [ "Yes", "No" ]
+      }]
+    }, {
+      "type": "section",
+      "label": "Quick Iterations",
+      "questions": [{
+        "type": "text",
+        "label": "How long, on average in weeks, between design changes and a user testing them?"
+      }, {
+        "type": "single",
+        "label": "Are design revisions factored into the estimate?",
+        "values": [ "Yes", "No" ]
+      }, {
+        "type": "single",
+        "label": "Are beta releases user tested?",
+        "values": [ "Yes", "No" ]
+      }, {
+        "type": "single",
+        "label": "Are prototypes and mockups user tested?",
+        "values": [ "Yes", "No" ]
+      }]
+    }, {
+      "type": "section",
+      "label": "Communication",
+      "questions": [{
+        "type": "multi",
+        "label": "The following documents are created with the client:",
+        "values": [ "Design guidelines / goals / statements", "Personas",
+          "User stories or use cases.", "Competitive analysis"]
+      }, {
+        "type": "multi",
+        "label": "The following documents are created:",
+        "values": [ "Wireframes and mockups", "Storyboards", "Prototypes",
+          "Prototypes", "High fidelity comps", "HTML prototypes",
+          "HTML style guide" ]
+      }, {
+        "type": "single",
+        "label": "Are videos or animations used to express interactions?",
+        "values": [ "Yes", "No" ]
+      }, {
+        "type": "single",
+        "label": "Are design issues and discussions \"publicly\" tracked?",
+        "values": [ "Yes", "No" ]
+      }, {
+        "type": "multi",
+        "label": "Where are design issues and discussions tracked?:",
+        "values": [ "Email", "Project management software (Trello, Basecamp)",
+          "Issue tracker (Jira / github)", "Excel" ]
+      }, {
+        "type": "single",
+        "label": "Does a design changelog exist?",
+        "help": "A design changelog is a document that contains a list of changes to the mockup/prototypes.",
+        "values": [ "Yes", "No" ]
+      }]
+    }]
+  }, {
+    "type": "section",
+    "label": "Development",
+    "help": "The following questions concern development specific problems.",
+    "questions": [{
+      "type": "section",
+      "label": "Tools and Environment",
+      "help": "The essential tools are in place and being used in the right way.",
+      "questions": [{
+        "type": "multi",
+        "label": "Source control is",
+        "values": [ "Used", "Git", "Used with a branch and merge strategy." ]
+      }, {
+        "type": "multi",
+        "label": "An issue tracker is",
+        "values": [ "Used", "Integrated with source control.", "Used by non developers." ]
+      }, {
+        "type": "multi",
+        "label": "The following environments exist",
+        "values": [ "Development", "Test", "Staging", "Production" ]
+      }, {
+        "type": "multi",
+        "label": "Continuous integration",
+        "values": [ "Exists", "Runs on all commits / pushes", "Emails on failure" ]
+      }, {
+        "type": "multi",
+        "label": "A 1-3 step process for the following exist:",
+        "values": [ "Setting up a development environment", "Testing the application.",
+          "Building the application into a production distributable.",
+          "Deploy to test and staging." ]
+      }]
+    }, {
+      "type": "section",
+      "label": "Code quality",
+      "help": "Practices and patterns that ensure good code.",
+      "questions": [{
+        "type": "single",
+        "label": "Is a module loader used?",
+        "help": "Examples: StealJS, RequireJS, Webpack, sprokets",
+        "values": [ "Yes", "No" ]
+      }, {
+        "type": "single",
+        "label": "Is the high level architecture documented and followed?",
+        "help": "For example: MVVM plus a client state observable with specified properties.",
+        "values": [ "Yes", "No" ]
+      }, {
+        "type": "multi",
+        "label": "All modules include:",
+        "values": [ "High level documentation.", "Tests", "Inline documentation", "A demo" ]
+      }, {
+        "type": "single",
+        "label": "Are there performance tests?",
+        "values": [ "Yes", "No" ]
+      }, {
+        "type": "multi",
+        "label": "The service layer is:",
+        "values": [ "RESTful", "Documented", "Tested", "Built / working" ]
+      }, {
+        "type": "single",
+        "label": "Is technical debt measured?",
+        "help": "Is some value (often in days / weeks) of technical debt calculated?",
+        "values": [ "Yes", "No" ]
+      }, {
+        "type": "single",
+        "label": "Is technical debt factored into estimates?",
+        "help": "Do estimations of time, or points, or effort include discussions of technical debt?",
+        "values": [ "Yes", "No" ]
+      }]
+    }, {
+      "type": "section",
+      "label": "Team",
+      "help": "Does the development team work well together.",
+      "questions": [{
+        "type": "single",
+        "label": "Is there a QA team or resource?",
+        "values": [ "Yes", "No" ]
+      }, {
+        "type": "single",
+        "label": "Are teams grouped by specialty?",
+        "help": "Example: client vs server",
+        "values": [ "Yes", "No" ]
+      }, {
+        "type": "number",
+        "label": "How many front-end developers?"
+      }, {
+        "type": "single",
+        "label": "Do your work alongside the client's developers?",
+        "help": "Your developers work on the same code as the client developers.",
+        "values": [ "Yes", "No" ]
+      }, {
+        "type": "single",
+        "label": "Is every piece of code known to at least two people?",
+        "help": "No piece of code should be \"workable\" by only one person.",
+        "values": [ "Yes", "No" ]
+      }, {
+        "type": "multi",
+        "label": "There are code reviews",
+        "values": [ "Every commit", "Every week", "Every month", "Of new people's code", "Never" ]
+      }, {
+        "type": "textarea",
+        "label": "List examples of the client demonstrating the ability to add or change to new technology as needed.",
+        "help": "Examples: Adding memcache, moving to a cloud, setting up a CDN."
+      }, {
+        "type": "textarea",
+        "label": "List examples of needed changes in technology or process.",
+        "help": "Examples: Adding memcache, moving to a cloud, setting up a CDN."
+      }]
+    }]
+  }]
+}
