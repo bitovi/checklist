@@ -1,5 +1,9 @@
 # JavaScript Project Checklist
 
+[Watch this video to learn what this checklist is about.](https://www.youtube.com/watch?v=20ebllexvuc
+)
+
+
 ## Questions:
 
 __Project name__
