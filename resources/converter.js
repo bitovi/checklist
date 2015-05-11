@@ -33,6 +33,7 @@ $(function() {
       var dform = {
         caption: getLabel(current),
         type: 'fieldset',
+        id: current.id,
         html: []
       };
       $.each(current.questions || [], function(index, question) {

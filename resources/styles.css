@@ -36,3 +36,21 @@ h1 {
 h1 img {
     width: 200px;
 }
+
+li {
+    list-style: none;
+}
+
+ul {
+    padding-left: 15px;
+}
+
+li a {
+    color: #b5dde8;
+    text-decoration: underline;
+    font-size: 1.5em;
+}
+
+li a:hover {
+    color: #b5dde8;
+}
