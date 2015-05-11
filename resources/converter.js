@@ -25,6 +25,7 @@ $(function() {
         html: {
           caption: getLabel(current),
           type: current.type,
+          name: current.label,
           class: 'form-control'
         }
       };
@@ -33,6 +34,7 @@ $(function() {
       var dform = {
         caption: getLabel(current),
         type: 'fieldset',
+        name: current.label,
         id: current.id,
         html: []
       };
@@ -58,7 +60,7 @@ $(function() {
     $('#heading').append(data.heading);
 
     $.each(questions, function(index, question) {
-      $('#checklist').dform(convert(question));
+      $('#checklist').dform(convert(question))
     });
 
     $('[type="checkbox"]').each(function() {
@@ -68,5 +70,14 @@ $(function() {
     $('[type="radio"]').each(function() {
       $(this).next().prepend($(this)).wrap('<div class="radio">');
     });
+
+    $('#checklist').append("<input type='submit' value='Submit' />");
   });
+
+  $('body').on('submit', 'form', function(ev){
+    var data = $('form').formParams();
+    ev.preventDefault();
+    $('#checklist').html("<div class='answers'>"+JSON.stringify(data)+"</div>");
+    $("#links").remove();
+  })
 });
