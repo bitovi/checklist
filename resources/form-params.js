@@ -159,7 +159,6 @@ define('jquerypp/dom/form_params/form_params', ['jquery'], function ($) {
                 }
                 nestData($this, type, data, parts, value, seen);
             });
-            debugger;
             for(var key in data){
                 if(!data[key].length){
                     delete data[key];
