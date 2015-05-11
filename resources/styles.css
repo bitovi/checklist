@@ -39,6 +39,7 @@ h1 img {
 
 li {
     list-style: none;
+    font-size: 1.5em;
 }
 
 ul {
@@ -48,7 +49,7 @@ ul {
 li a {
     color: #b5dde8;
     text-decoration: underline;
-    font-size: 1.5em;
+    font-size: 1.0em;
 }
 
 li a:hover {
