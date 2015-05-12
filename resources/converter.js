@@ -71,7 +71,7 @@ $(function() {
       $(this).next().prepend($(this)).wrap('<div class="radio">');
     });
 
-    $('#checklist').append("<input type='submit' value='Submit' />");
+    $('#checklist').append("<div class='text-center'><input class='btn btn-lg btn-primary' type='submit' value='Submit' /></div>");
   });
 
   $('body').on('submit', 'form', function(ev){

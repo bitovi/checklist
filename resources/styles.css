@@ -1,81 +1,28 @@
 body {
     font-family: 'Lato', sans-serif;
-    background-color: #215968;
-    color: #FFF;
+    padding-bottom: 45px;
 }
-
-legend {
-    color: #FFF;
+.jumbotron {
+  padding: 30px;
+  text-align: center;
+  margin-top: 30px;
 }
-
-form > fieldset > legend {
-    font-size: 2em;
+.jumbotron h1 {
+  font-size: 40px;
+  margin: 0;
 }
-
-form > fieldset > fieldset > legend {
-    font-size: 1.5em;
+label {
+  margin-bottom: 0;
 }
-
-legend > small {
-    font-size: 60%;
-}
-
 small {
-    font-weight: normal;
-    color: #b5dde8;
+  color: #999999;
+  font-weight: 400;
 }
-
 .checkbox, .radio {
     margin-left: 20px;
+    margin-top: 0;
+    margin-bottom: 10px;
 }
-
-h1 {
-    margin-bottom: 50px;
-}
-
-h1 img {
-    width: 200px;
-}
-
-li {
-    list-style: none;
-    font-size: 1.5em;
-}
-
-ul {
-    padding-left: 15px;
-}
-
-li a {
-    color: #b5dde8;
-    text-decoration: underline;
-    font-size: 1.0em;
-}
-
-li a:hover {
-    color: #b5dde8;
-}
-
-input[type=text] {
-    padding:5px; 
-    border:2px solid #ccc; 
-    -webkit-border-radius: 5px;
-    border-radius: 5px;
-}
-input[type=text]:focus {
-    border-color:#333; 
-}
-
-input[type=submit] {
-    padding:5px 15px; 
-    background:#ccc; 
-    border:0 none;
-    cursor:pointer;
-    -webkit-border-radius: 5px;
-    border-radius: 5px; 
-}
-
-.answers {
-    color: #FFF;
-    font-size: 1.5em;
+.checkbox:last-child, .radio:last-child {
+    margin-bottom: 20px;
 }
