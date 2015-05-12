@@ -95,7 +95,7 @@
     }]
   }, {
     "type": "section",
-    "label": "UX / UI",
+    "label": "Design & UX",
     "id": "design",
     "questions": [{
       "type": "number",
