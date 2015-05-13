@@ -224,6 +224,14 @@
         "help": "For example: MVVM plus a client state observable with specified properties.",
         "values": [ "Yes", "No" ]
       }, {
+        "type": "single",
+        "label": "Are there unit tests?",
+        "values": [ "Yes", "No" ]
+      }, {
+        "type": "single",
+        "label": "Is there documentation for the code?",
+        "values": [ "Yes", "No" ]
+      }, {
         "type": "multi",
         "label": "All modules include:",
         "values": [ "High level documentation.", "Tests", "Inline documentation", "A demo" ]
