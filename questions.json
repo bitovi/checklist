@@ -44,7 +44,7 @@
           "values": [ "Yes", "No" ]
         }, {
           "type": "single",
-          "label": "Is there at least a yearly additional training opportunities for all employees?",
+          "label": "Is there at least one, yearly, additional training opportunity for all employees?",
           "values": [ "Yes", "No" ]
         }, {
           "type": "single",
@@ -72,7 +72,7 @@
           "values": [ "UX teams", "Dev teams" ]
         }, {
           "type": "single",
-          "label": "Have your companies values, experiences, and goals been expressed to management and the client team?",
+          "label": "Have your company's values, experiences, and goals been expressed to management and the client team?",
           "values": [ "Yes", "No" ]
         }, {
           "type": "single",
@@ -272,7 +272,7 @@
         "label": "How many front-end developers?"
       }, {
         "type": "single",
-        "label": "Do your work alongside the client's developers?",
+        "label": "Do you work alongside the client's developers?",
         "help": "Your developers work on the same code as the client developers.",
         "values": [ "Yes", "No" ]
       }, {
