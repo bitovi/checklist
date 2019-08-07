@@ -75,8 +75,8 @@ __Who has final say in technology and infrastructure decisions?__
 __Do product owners frequently (at least once a month) meet with:__
 
 
-- UX teams
-- Dev teams
+[] UX teams
+[] Dev teams
 
 __Have your companies values, experiences, and goals been expressed to management and the client team?__
 
